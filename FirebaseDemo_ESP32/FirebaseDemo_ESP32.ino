@@ -27,7 +27,7 @@
 #define WIFI_PASSWORD "PASSWORD"
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
 
   // connect to wifi.
   WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
